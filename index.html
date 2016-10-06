@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+     <div class="header">
+         <div class="header-inner">
+             <div class="xx" onclick="this.parentElement.parentElement.classList.remove('searching')">
+                 <span class="span-left"></span>
+                 <span class="span-right"></span>
+             </div>
+             <div class="search-box ">
+                 <div class="search-box-inner">
+                     <li style="float:left;"><img src="image/search.svg" alt=""></li>
+                     <input type="text" value="" placeholder="Search Apple.com" style="color:#fff;">
+                 </div>
+                     <ul class="card">
+                        <li style="text-indent:1em;"><h3>Quick Links</h3></li>
+                         <li style="text-indent:4em;">Find a Store</li>
+                         <li style="text-indent:4em;">Accessories</li>
+                         <li style="text-indent:4em;">iPod</li>
+                         <li style="text-indent:4em;">iOS</li>
+                         <li style="text-indent:4em;">Gift Cards</li>
+                     </ul>
+
+             </div>
+             <ul class="phone-list">
+                 <ul class="xxx-tt">
+                     <li class="nav-item menu icon"><a href="#" class="mac"></a></li>
+                     <li class="nav-item menu icon"><a href="#" class="ipad"></a></li>
+                     <li class="nav-item menu icon"><a href="#" class="iphone"></a></li>
+                     <li class="nav-item menu icon"><a href="#" class="watch"></a></li>
+                     <li class="nav-item menu icon"><a href="#" class="tv"></a></li>
+                     <li class="nav-item menu icon"><a href="#" class="music"></a></li>
+                     <li class="nav-item menu icon"><a href="#" class="support"></a></li>
+                     <li><a href="javascript: ;">
+                         <div  style="float:left"><img src="image/search.svg" alt=""></div>
+                         <input type="text" value="" placeholder="Search Apple.com" style="color:#fff;">
+                     </a>
+                     </li>
+                 </ul>
+                 <div class="xxx" onclick="this.parentElement.classList.toggle('displaying')">
+                     <span class="span-left"></span>
+                     <span class="span-right"></span>
+                 </div>
+                 <li class="nav-item"><a href="#" class="logo-mid"></a></li>
+                 <li class="nav-item"><a href="#" class="bag-mid" onclick="this.parentElement.parentElement.parentElement.lastElementChild.classList.toggle('disp')"></a></li>
+             </ul>
+             <ul class="nav-list">
+                 <li class="nav-item"><a href="#" class="logo"></a></li>
+                 <li class="nav-item menu"><a href="#" class="mac"></a></li>
+                 <li class="nav-item menu"><a href="#" class="ipad"></a></li>
+                 <li class="nav-item menu"><a href="#" class="iphone"></a></li>
+                 <li class="nav-item menu"><a href="#" class="watch"></a></li>
+                 <li class="nav-item menu"><a href="#" class="tv"></a></li>
+                 <li class="nav-item menu"><a href="#" class="music"></a></li>
+                 <li class="nav-item menu"><a href="#" class="support"></a></li>
+                 <li class="nav-item menu"><a href="#" class="search" onclick="this.parentElement.parentElement.parentElement.parentElement.classList.add('searching')"></a></li>
+                 <li class="nav-item"><a href="#" class="bag" onclick="this.parentElement.parentElement.parentElement.lastElementChild.classList.toggle('disp')"></a></li>
+             </ul>
+             <div class="bag-card">
+                 <div class="bag-title"><a href="#">Your Bag is empty</a></div>
+                 <ul class="bag-list">
+                 <li class="bag1"><a href="#"><div></div><span>Bag</span></a></li>
+                 <li class="favorites"><a href="#"><div></div><span>Favorites</span></a></li>
+                 <li class="orders"><a href="#"><div></div><span>Orders</span></a></li>
+                 <li class="account"><a href="#"><div></div><span>Account</span></a></li>
+                 <li class="signIn"><a href="#"><div></div><span>Sign in</span></a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     <div class="carouser">
+        <div class="gallery-slide-wrapper">
+            <div class="tab-list">
+                <a href="#" class="phone active">
+                    <h1 class="iphone-p"><img src="image/logo_iphone_large.png" alt=""></h1>
+                    <h2 class="iphone-headline">This is 7.</h2>
+                </a>
+                <a href="#" class="watchs">
+                    <h1 class="watch-p"><img src="image/logo_watch_large.png" alt=""></h1>
+                    <h2 class="watch-headline">Introducing Series 2.</h2>
+                </a>
+                <a href="#" class="airpods">
+                    <h1 class="airpods-p"><img src="image/logo_airpods_large.png" alt=""></h1>
+                    <h2 class="airpods-headline">Wireless. Effortless. Magical.</h2>
+                </a>
+                <a href="#" class="event">
+                    <h1 class="event-p"><img src="image/logo_event_large.png" alt=""></h1>
+                    <h2 class="event-headline">Watch the keynote.</h2>
+                </a>
+            </div>
+            <div class="dot-list">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="btn-box-left"></div>
+            <div class="btn-box-right"> </div>
+            <div class="btn-list">
+                <div class="leftbtn">&lt;
+                    <!--<span class="span-left"></span>-->
+                    <!--<span class="span-right"></span>-->
+                </div>
+                <div class="rightbtn">&gt;
+                    <!--<span class="span-left"></span>-->
+                    <!--<span class="span-right"></span>-->
+                </div>
+            </div>
+        </div>
+     </div>
+     <ul class="promos row">
+         <li class="ios col d-3 m-6 s-12"></li>
+         <li class="watchos col d-3 m-6 s-12"></li>
+         <li class="swift_playgrounds col d-3 m-6 s-12"></li>
+         <li class="music_festival col d-3 m-6 s-12"></li>
+     </ul>
+     <footer class="bottom">
+  <div class="content">
+      <div class="directory ">
+          <div class="directory-column ">
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+                  <h3><a href="javascript: ;">选购及了解 <div>+</div></a></h3>
+              </label>
+              <ul class="directory-list">
+                  <li><a href="#">Mac</a></li>
+                  <li><a href="#">iPad</a></li>
+                  <li><a href="#">iPhone</a></li>
+                  <li><a href="#">Watch</a></li>
+                  <li><a href="#">Music</a></li>
+                  <li><a href="#">iTunes</a></li>
+                  <li><a href="#">iPod</a></li>
+                  <li><a href="#">配件</a></li>
+              </ul>
+          </div>
+          <div class="directory-column ">
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+                  <h3><a href="javascript: ;">Apple Store 商店<div>+</div></a></h3>
+              </label>
+              <ul class="directory-list">
+                  <li><a href="#">查找零售店</a></li>
+                  <li><a href="#">Genius Bar天才吧</a></li>
+                  <li><a href="#">讲座和学习</a></li>
+                  <li><a href="#">青少年活动</a></li>
+                  <li><a href="#">Apple Store App</a></li>
+                  <li><a href="#">翻新产品</a></li>
+                  <li><a href="#">分期付款</a></li>
+                  <li><a href="#">重复使用和循环利用</a></li>
+                  <li><a href="#">订单状态</a></li>
+                  <li><a href="#">循环帮助</a></li>
+              </ul>
+          </div>
+          <div class="directory-column ">
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+              <h3><a href="javascript: ;">教育应用<div>+</div></a></h3>
+          </label>
+              <ul class="directory-list" style="margin-bottom:20px;">
+                  <li><a href="#">Apple与教育</a></li>
+                  <li><a href="#">高效师生选购</a></li>
+              </ul>
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+                  <h3><a href="javascript: ;">商务应用 <div>+</div></a></h3>
+              </label>
+              <ul class="directory-list">
+                  <li><a href="#">Apple与商务</a></li>
+                  <li><a href="#">商务选购</a></li>
+              </ul>
+          </div>
+          <div class="directory-column ">
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+                  <h3><a href="javascript: ;">帐户 <div>+</div></a></h3>
+              </label>
+              <ul class="directory-list" style="margin-bottom:20px;">
+                  <li><a href="#">管理你的Apple ID</a></li>
+                  <li><a href="#">Apple Store 商店</a></li>
+                  <li><a href="#">iClud.com</a></li>
+                  <li></li>
+              </ul>
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+                  <h3><a href="javascript: ;">Apple价值观 <div>+</div></a></h3>
+              </label>
+              <ul class="directory-list">
+                  <li><a href="#">辅助功能</a></li>
+                  <li><a href="#">环境责任</a></li>
+                  <li><a href="#">隐私</a></li>
+                  <li><a href="#">供应商责任</a></li>
+              </ul>
+          </div>
+          <div class="directory-column ">
+              <label class="directory-title" onclick="this.parentElement.classList.toggle('til-block')">
+                  <h3><a href="javascript: ;">关于Apple <div>+</div></a></h3>
+              </label>
+              <ul class="directory-list">
+                  <li><a href="#">Apple资讯</a></li>
+                  <li><a href="#">工作机会</a></li>
+                  <li><a href="#">媒体资讯</a></li>
+                  <li><a href="#">活动</a></li>
+                  <li><a href="#">联系apple</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="ac-footer">
+         <div class="ac-footer-shop">
+             更多选购方式：前往 <span>Apple Store 零售店</span>，致电 400-666-8800 或查找在你附近的<span>授权经销商</span>。
+         </div>
+          <div class="ac-footer-legal">
+             <div class="ac-footer-copyright">Copyright © 2016 Apple Inc. 保留所有权利</div>
+              <div class="ac-footer-link">
+                  <a href="#">隐私政策</a>
+                  <a href="#">使用条款</a>
+                  <a href="#">销售政策</a>
+                  <a href="#">网站信息</a>
+                  <a href="#" style="margin-right:0;padding-right:0;border-right:0;">网站地图</a>
+              </div>
+          </div>
+          <p>京公安网安备 11010502008968 京ICP备10214630</p>
+      </div>
+
+  </div>
+</footer>
+</body>
+</html>
